@@ -1,6 +1,6 @@
 var sedrot =
 [
-    ["Bereshit",        "Bereshis",     "ברשית"],
+    ["Bereshit",        "Bereshis",     "בראשית"],
     ["Noach",   "Noach",        "נח"],
     ["Lech-Lecha",      "Lech-Lecha",   "לך לך"],
     ["Vayera",  "Vayera",       "וירא"],
@@ -9,18 +9,18 @@ var sedrot =
     ["Vayetzei",        "Vayetzei",     "ויצא"],
     ["Vayishlach",      "Vayishlach",   "וישלח"],
     ["Vayeshev",        "Vayeshev",     "וישב"],
-    ["Miketz",  "Miketz",       "מיקץ"],
+    ["Miketz",  "Miketz",       "מקץ"],
     ["Vayigash",        "Vayigash",     "ויגש"],
     ["Vayechi", "Vayechi",      "ויחי"],
     ["Shemot",  "Shemos",       "שמות"],
-    ["Vaera",   "Vaera",        "ויראה"],
-    ["Bo",      "Bo",   "בו"],
+    ["Vaera",   "Vaera",        "וארא"],
+    ["Bo",      "Bo",   "בא"],
     ["Beshalach",       "Beshalach",    "בשלח"],
     ["Yitro",   "Yisro",        "יתרו"],
     ["Mishpatim",       "Mishpatim",    "משפטים"],
     ["Terumah", "Terumah",      "תרומה"],
-    ["Tetzaveh",        "Tetzaveh",     "תצווה"],
-    ["Ki Tisa", "Ki Sisa",      "כי תשה"],
+    ["Tetzaveh",        "Tetzaveh",     "תצוה"],
+    ["Ki Tisa", "Ki Sisa",      "כי תשא"],
     ["Vayakhel",        "Vayakhel",     "ויקהל"],
     ["Pekudei", "Pekudei",      "פקודי"],
     ["Vayikra", "Vayikra",      "ויקרא"],
@@ -32,13 +32,13 @@ var sedrot =
     ["Kedoshim",        "Kedoshim",     "קדושים"],
     ["Emor",    "Emor", "אמור"],
     ["Behar",   "Behar",        "בהר"],
-    ["Bechukotai",      "Bechukosai",   "בחוקותי"],
+    ["Bechukotai",      "Bechukosai",   "בחוקתי"],
     ["Bamidbar",        "Bamidbar",     "במדבר"],
     ["Nasso",   "Nasso",        "נשא"],
     ["Beha'alotcha",    "Beha'aloscha", "בהעלותך"],
     ["Sh'lach", "Sh'lach",      "שלח"],
-    ["Korach",  "Korach",       "קורח"],
-    ["Chukat",  "Chukas",       "חוקת"],
+    ["Korach",  "Korach",       "קרח"],
+    ["Chukat",  "Chukas",       "חקת"],
     ["Balak",   "Balak",        "בלק"],
     ["Pinchas", "Pinchas",      "פנחס"],
     ["Matot",   "Matos",        "מטות"],
@@ -50,7 +50,7 @@ var sedrot =
     ["Shoftim", "Shoftim",      "שופטים"],
     ["Ki Teitzei",      "Ki Seitzei",   "כי תצא"],
     ["Ki Tavo", "Ki Savo",      "כי תבוא"],
-    ["Nitzavim",        "Nitzavim",     "נציבם"],
+    ["Nitzavim",        "Nitzavim",     "נצבים"],
     ["Vayeilech",       "Vayeilech",    "וילך"],
     ["Ha'Azinu",        "Ha'Azinu",     "האזינו"],
 ];
@@ -59,13 +59,13 @@ var INCOMPLETE = 0;
 var REGULAR = 1;
 var COMPLETE = 2;
 
-/* parsha doubler */
+/* parasha doubler */
 function D(p)
 {
     return (-(p));
 }
 
-/* parsha undoubler */
+/* parasha undoubler */
 function U(p)
 {
 	return (-(p));
